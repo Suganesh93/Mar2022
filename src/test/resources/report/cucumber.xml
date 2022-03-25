@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.006762">
+    <testcase classname="validate the adactinhotel" name="Validating the page navigate to select hotel by selecting all fields" time="0.005465">
+        <failure message="The scenario has pending or undefined step(s)">
+            <![CDATA[Given user should enter "sugan12345","OH98G6" and click login...............skipped
+When user should enter the "Sydney","Hotel Creek","Standard","1 - One","31/08/2021","11/09/2021","2 - Two","1 - One" and click search button.skipped
+Then user should validate that page should be navigate to "Select Hotel"....skipped
+And user is kanchana........................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="validate the adactinhotel" name="Validating the page navigate to select hotel by selecting mandatory fields" time="0.000458">
+        <system-out>
+            <![CDATA[Given user should enter "sugan12345","OH98G6" and click login...............skipped
+When user should enter the "Sydney","1 - One","31/08/2021","11/09/2021","2 - Two" and click search button.skipped
+Then user should validate that page should be navigate to "Select Hotel"....skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate the adactinhotel" name="Validating the page navigate to select hotel with wrong check in and checkout date" time="0.000433">
+        <system-out>
+            <![CDATA[Given user should enter "sugan12345","OH98G6" and click login...............skipped
+When user should enter the "Sydney","21/08/2021","10/08/2021", and click search button.skipped
+Then user should validate "Check-In Date shall be before than Check-Out Date" and "Check-Out Date shall be after than Check-In Date" message is displayed.skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="validate the adactinhotel" name="Validating the page navigate to select hotel without entering any fields" time="0.000406">
+        <system-out>
+            <![CDATA[Given user should enter "sugan12345","OH98G6" and click login...............skipped
+When user should click search button........................................skipped
+Then user should validate "Please Select a Location" message is displayed...skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

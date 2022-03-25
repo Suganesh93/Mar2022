@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3529073400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validating the page navigate to select hotel by selecting all fields",
+        "description": "",
+        "id": "validate-the-adactinhotel;validating-the-page-navigate-to-select-hotel-by-selecting-all-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 896528000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should enter \"sugan12345\",\"OH98G6\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sugan12345\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"OH98G6\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.userShouldEnterAndClickLogin(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1276912100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"Sydney\",\"Hotel Creek\",\"Standard\",\"1 - One\",\"11/08/2021\",\"15/08/2021\",\"2 - Two\",\"1 - One\" and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"11/08/2021\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"15/08/2021\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 102
+                }
+              ],
+              "location": "StepDef.userShouldEnterTheAndClickSearchButton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20035200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should validate that page should be navigate to \"Select Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDef.userShouldValidateThatPageShouldBeNavigateTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2783123500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validating the page navigate to select hotel by selecting mandatory fields",
+        "description": "",
+        "id": "validate-the-adactinhotel;validating-the-page-navigate-to-select-hotel-by-selecting-mandatory-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 25000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 817635100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should enter \"sugan12345\",\"OH98G6\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sugan12345\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"OH98G6\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.userShouldEnterAndClickLogin(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 938603300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should enter the \"Sydney\",\"1 - One\",\"11/08/2021\",\"15/08/2021\",\"2 - Two\" and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"11/08/2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"15/08/2021\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDef.userShouldEnterTheAndClickSearchButton(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25767500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should validate that page should be navigate to \"Select Hotel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDef.userShouldValidateThatPageShouldBeNavigateTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2681026100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validating the page navigate to select hotel with wrong check in and checkout date",
+        "description": "",
+        "id": "validate-the-adactinhotel;validating-the-page-navigate-to-select-hotel-with-wrong-check-in-and-checkout-date;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 24200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 802289000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should enter \"sugan12345\",\"OH98G6\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sugan12345\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"OH98G6\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.userShouldEnterAndClickLogin(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242247500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should enter the \"Sydney\",\"21/08/2021\",\"10/08/2021\", and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"21/08/2021\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"10/08/2021\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.userShouldEnterTheAndClickSearchButton(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62769500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should validate \"Check-In Date shall be before than Check-Out Date\" and \"Check-Out Date shall be after than Check-In Date\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check-In Date shall be before than Check-Out Date\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Check-Out Date shall be after than Check-In Date\"",
+                  "offset": 77
+                }
+              ],
+              "location": "StepDef.userShouldValidateAndMessageIsDisplayed(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2655733300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Validating the page navigate to select hotel without entering any fields",
+        "description": "",
+        "id": "validate-the-adactinhotel;validating-the-page-navigate-to-select-hotel-without-entering-any-fields;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 36600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 775912700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should enter \"sugan12345\",\"OH98G6\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sugan12345\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"OH98G6\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.userShouldEnterAndClickLogin(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61463900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should click search button",
+            "match": {
+              "location": "StepDef.userShouldClickSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33576800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user should validate \"Please Select a Location\" message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please Select a Location\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.userShouldValidateMessageIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate the adactinhotel",
+    "description": "",
+    "id": "validate-the-adactinhotel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FEatures/Adac.feature",
+    "tags": []
+  }
+]
